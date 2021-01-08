@@ -1,6 +1,18 @@
 # Seoul_Bike_Sharing_Demand
 Projet réalisé par Thomas DUVAL, A5 IBO 2
 
+### Fichiers du GitHub
+
+SeoulBikeData.csv est le dataset.
+
+NotebookProjet.ipynb est le code python.
+
+xgbmodel.pickle est le modèle que l'on utilise dans l'API.
+
+app.py et request.py correspondent à l'API.
+
+PPT_Projet_DUVAL.ppt est la présentation.
+
 # Introduction
 Dans le cadre du cours de Python for Data Analysis, il a été demandé de travailler sur un dataset attribué afin de réaliser un travail qui entre dans le contexte de l'étude de ce dataset.
 Le dataset qui m'avait été donné initialement était : https://archive.ics.uci.edu/ml/datasets/Taiwanese+Bankruptcy+Prediction
