@@ -11,7 +11,7 @@ xgbmodel.pickle est le modèle que l'on utilise dans l'API.
 
 app.py et request.py correspondent à l'API.
 
-PPT_Projet_DUVAL.ppt est la présentation.
+PPT_Projet_DUVAL.pdf est la présentation.
 
 # Introduction
 Dans le cadre du cours de Python for Data Analysis, il a été demandé de travailler sur un dataset attribué afin de réaliser un travail qui entre dans le contexte de l'étude de ce dataset.
