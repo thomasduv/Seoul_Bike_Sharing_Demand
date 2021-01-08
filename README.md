@@ -79,7 +79,7 @@ En effet, notre dataset traitait de la location de vélos à Séoul, et notre r�
 
 Grâce à notre exploration et nos visualisations, on peut se rendre compte rapidement que de nombreux features influence le nombre de locations. Ainsi on se rend compte de l'importance de prédire la demande afin de pouvoir répondre à un besoin utilisateur.
 
-Après avoir tester comparer différents modèles, nous avons choisi de continuer avec XGBoost et d'optimiser ses hyperparamètres afin d'améliorer les performances de celui-ci.
+Après avoir testé et comparé différents modèles, nous avons choisi de continuer avec XGBoost et d'optimiser ses hyperparamètres afin d'améliorer les performances de celui-ci.
 
 Nous obtenons donc un modèle avec des scores de :
 - MSE : 35437.49
@@ -100,7 +100,7 @@ En ouverture, il pourrait être intéressant de travailler avec un dataset qui r
 Notre API est composé de 2 fichiers :
 
 ### app.py
-Il s'agit du code de l'API, on charge notre modèle et on les exécute sur les données de la requête. A noté que pour faire fonctionner XGBoost, nous transformons les données d'entrée en dataframe.
+Il s'agit du code de l'API, on charge notre modèle et on l'exécute sur les données de la requête. A noté que pour faire fonctionner XGBoost, nous transformons les données d'entrée en dataframe.
 
 ### request.py
 Il s'agit d'un code d'exemple de requête, on retrouve un tableau data avec 4 lignes pour 4 prédictions différentes. Pour tester vos propres prédictions vous pouvez changer les valeurs d'entrée comme bon vous semble.
